@@ -14,7 +14,7 @@ app.post('/echo', (req, res) => {
   res.json({ echo: req.body });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`MCP server running on port ${PORT}`);
 });
